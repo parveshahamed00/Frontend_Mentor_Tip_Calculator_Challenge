@@ -1,0 +1,90 @@
+body{
+    background-color:hsl(185, 41%, 84%);
+    font-family:monospace;
+}
+#body{
+    display: flex;
+    align-items: center;
+        height: 100vh;
+    justify-content: center;
+}
+h4{
+    color: hsl(186, 14%, 43%);
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.whitebg{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    padding:4% 0;
+}
+p{
+    color: hsl(183, 100%, 15%);
+    padding-top: 5%;
+}
+.container{
+    width: 60%;
+}
+.firstCol{
+    padding-left: 3%;
+}
+input{
+    border-radius: 2px;
+    border: 0;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+    font-size: 20px;
+    text-align: end;
+    font-weight: 900;
+        width: 80%;
+
+}
+#textfield, #noOfpeopleField{
+    position: relative;
+}
+img{
+    position: absolute;
+    left: 0;
+    top:20%;
+}
+#tipSelectingfield button{
+background-color:hsl(183, 100%, 15%);
+margin: 2%;
+}
+#displayField{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+    padding: 5% 0 5% 5%;
+    width: 80%;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: ghostwhite;
+    font-size: 10px;
+}
+#tipAmount,#totalamount{
+    margin: 10% 0;
+    position: relative;
+}
+.amountDisplay{
+    color:hsl(172, 67%, 45%);
+    font-weight: 900;
+    position: absolute;
+    right: 3%;
+    font-size: 30px;
+    top: 0;
+}
+@media  (max-width:600px) {
+    .amountDisplay{
+        font-size: 20px;
+    }
+    .container{
+        width: 70%;
+    }
+}
